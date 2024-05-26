@@ -1,40 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# React-Assignment 2
 
-## Getting Started
+<h1>Tech Stack Used</h1>
+<p>Next.js(Reactjs Framework)</p>
+<p>React.js</p>
+<p>Axios</p>
+<p>RestAPIs</p>
+<p>GIT</p>
+<p>Netlify</p>
+<p>Tailwind css</p>
 
-First, run the development server:
+<h2>Landing page</h2>
+<img src="https://github.com/Bhaskar977/React-Assignment2/assets/98516131/f08df74f-e87a-4bf0-8c78-2ae3994ef004"/>
+<p>Second Image</p>
+<img src="https://github.com/Bhaskar977/React-Assignment2/assets/98516131/3c2b64e3-d85a-4b85-9bee-8982666e9dcb"/>
+<p>Third Image</p>
+<img src="https://github.com/Bhaskar977/React-Assignment2/assets/98516131/b25210b8-8ade-4a03-b1f8-b0754e01cba2"/>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<h2>Tablet View of Landing Page</h2>
+<img src="https://github.com/Bhaskar977/React-Assignment2/assets/98516131/d148727a-2628-4a9a-94c5-3d24ae54e136"/>
+<p>Second Image</p>
+<img src="https://github.com/Bhaskar977/React-Assignment2/assets/98516131/8eaf1659-6556-47b2-8530-aa54fba7d221"/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2>Mobile View of Landing Page</h2>
+<img src="https://github.com/Bhaskar977/React-Assignment2/assets/98516131/5e4e77de-153a-4fc7-b55e-6d1f44cff87d"/>
+<p>Second Image</p>
+<img src="https://github.com/Bhaskar977/React-Assignment2/assets/98516131/885793c6-9383-4982-a71c-da6f8d7cee61"/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
