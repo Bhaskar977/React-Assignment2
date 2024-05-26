@@ -8,6 +8,7 @@
 <p>GIT</p>
 <p>Netlify</p>
 <p>Tailwind css</p>
+<p>React multi-carousel</p>
 
 <h2>Landing page</h2>
 <img src="https://github.com/Bhaskar977/React-Assignment2/assets/98516131/f08df74f-e87a-4bf0-8c78-2ae3994ef004"/>
