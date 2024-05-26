@@ -140,11 +140,15 @@ const Navbar = () => {
 
       <div className="flex justify-between mx-5">
         <div>
-          <p>Bags Backpacks</p>
+          <p className="text-gray-800 text-sm sm:text-base lg:text-lg">Bags Backpacks</p>
         </div>
-        <div className="flex">
-          <p className="mx-4">13 products</p>
-          <img src="/Vector 4.png" alt="" />
+        <div className="flex items-center">
+          <p className="text-gray-800 mx-4 text-sm sm:text-base lg:text-lg">13 products</p>
+          <img
+            className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6"
+            src="/Vector 4.png"
+            alt="Vector Icon"
+          />
         </div>
       </div>
 
