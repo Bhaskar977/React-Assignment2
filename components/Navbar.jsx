@@ -26,9 +26,9 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    fetch("/db.json")
+    fetch("https://fakestoreapi.com/products")
       .then((response) => response.json())
-      .then((data) => setItem(data?.data))
+      .then((data) => setItem(data))
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
@@ -137,8 +137,20 @@ const Navbar = () => {
           </div>
         </Carousel>
       </div>
+
+      <div className="flex justify-between mx-5">
+        <div>
+          <p>Bags Backpacks</p>
+        </div>
+        <div className="flex">
+          <p className="mx-4">13 products</p>
+          <img src="/Vector 4.png" alt="" />
+        </div>
+      </div>
+
+      {/* Mapping of the products  */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 mx-auto">
-        {item.map((el) => (
+        {item?.map((el) => (
           <Card key={el.id} data={el} />
         ))}
       </div>
