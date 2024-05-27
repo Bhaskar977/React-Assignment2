@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from "./Card";
+import axios from "axios";
 
 const Navbar = () => {
   const [item, setItem] = useState([]);
@@ -26,11 +27,19 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    fetch("https://fakestoreapi.com/products")
-      .then((response) => response.json())
-      .then((data) => setItem(data))
-      .catch((error) => console.error("Error fetching data:", error));
+    fetchedData();
   }, []);
+
+  // fetched Data
+
+  const fetchedData = async () => {
+    try {
+      const res = await axios.get("https://fakestoreapi.com/products");
+      setItem(res?.data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   // Toggle mobile menu
   const toggleMenu = () => {
@@ -140,10 +149,14 @@ const Navbar = () => {
 
       <div className="flex justify-between mx-5">
         <div>
-          <p className="text-gray-800 text-sm sm:text-base lg:text-lg">Bags Backpacks</p>
+          <p className="text-gray-800 text-sm sm:text-base lg:text-lg">
+            Bags Backpacks
+          </p>
         </div>
         <div className="flex items-center">
-          <p className="text-gray-800 mx-4 text-sm sm:text-base lg:text-lg">13 products</p>
+          <p className="text-gray-800 mx-4 text-sm sm:text-base lg:text-lg">
+            13 products
+          </p>
           <img
             className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6"
             src="/Vector 4.png"
